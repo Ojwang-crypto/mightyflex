@@ -83,7 +83,7 @@
           </ul>
         </li>
 
-          <li><a class="get-a-quote" href="get-a-quote.php">Get a Quote</a></li>
+          <li><a class="get-a-quote" href="get-a-quote.php">Submit RFQ</a></li>
         </ul>
       </nav><!-- .navbar -->
 
