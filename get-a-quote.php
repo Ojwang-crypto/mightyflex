@@ -12,8 +12,8 @@
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-              <h2>Get a Quote</h2>
-              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <h2>Submit Quotation</h2>
+              <p>Tell us what you are looking for and we will find it for you.</p>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Get a Quote</li>
+            <li>Submit a Quote</li>
           </ol>
         </div>
       </nav>
@@ -61,6 +61,16 @@
 
                 <div class="col-md-12">
                   <textarea class="form-control" name="description" rows="6" placeholder="Detailed Description" required></textarea>
+                </div>
+              <!--Add file attachment-->
+                <div class="col-md-6">
+                  <label>Supporting Documents</label>
+                     <input type="file" id="myFile" name="filename">
+                  </div>
+               <!--Add photo attachment-->
+                <div class="col-md-6">
+                  <label>Add Photo</label>
+                      <input type="file" id="myFile" name="filename">
                 </div>
 
                <!--Personal Details-->
