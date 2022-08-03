@@ -10,18 +10,12 @@
     <div class="container">
       <div class="row gy-4 d-flex justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-<<<<<<< HEAD:index.html
           <h2 data-aos="fade-up">Connect. Save. Relax.</h2>
           <p data-aos="fade-up" data-aos-delay="100">Rediscover an exciting new way of buying goods/services. </p>
           <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers by 
             Pooling requests. Make a product <u>suggestion/join a pool.</u>
           </p>
           <p data-aos="fade-up" data-aos-delay="100">Get access to our assorted list of registered suppliers to help you in your purchasing process
-=======
-          <h2 data-aos="fade-up">An Exciting Way of Buying Goods/Services</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers or suppliers by Pooling requests.
-            Make a product <u>suggestion/join a pool</u>
->>>>>>> 633702b29ccb18dddb8a030ef3479a44c07a165b:index.php
           </p>
 
           <!-- <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
@@ -34,28 +28,28 @@
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Clients</p>
+                <p>Suppliers</p>
               </div>
             </div><!-- End Stats Item -->
 
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Projects</p>
+                <p>Customers</p>
               </div>
             </div><!-- End Stats Item -->
 
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Support</p>
+                <p>Pools</p>
               </div>
             </div><!-- End Stats Item -->
 
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Workers</p>
+                <p>Fullfilled</p>
               </div>
             </div><!-- End Stats Item -->
 

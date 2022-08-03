@@ -75,7 +75,14 @@
             </ul>
           </li>
           <li><a href="contact.php"> Contact</a></li>
-          <li><a href="signup.php">SignUp</a></li>
+
+        <li class="dropdown"><a href="#"><span>SignUp</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <ul>
+              <li><a href="signup.php">Customer</a></li>
+              <li><a href="signup.php">Supplier</a></li>
+          </ul>
+        </li>
+
           <li><a class="get-a-quote" href="get-a-quote.php">Get a Quote</a></li>
         </ul>
       </nav><!-- .navbar -->
