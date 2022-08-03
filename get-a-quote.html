@@ -116,36 +116,50 @@
           <div class="col-lg-5 quote-bg" style="background-image: url(assets/img/quote-bg.jpg);"></div>
 
           <div class="col-lg-7">
+            <!--Item Details-->
             <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Get a quote</h3>
+              <h3>Fill in Quotation</h3>
               <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="departure" class="form-control" placeholder="City of Departure" required>
+                  <input type="text" name="Item_namr" class="form-control" placeholder="Item Name" required>
                 </div>
 
                 <div class="col-md-6">
-                  <input type="text" name="delivery" class="form-control" placeholder="Delivery City" required>
+                  <input type="number" name="quantity" class="form-control" placeholder="Quantity" required>
                 </div>
 
                 <div class="col-md-6">
-                  <input type="text" name="weight" class="form-control" placeholder="Total Weight (kg)" required>
+                  <input type="number" name="weight" class="form-control" placeholder="Total Weight (kg)" required>
                 </div>
 
                 <div class="col-md-6">
-                  <input type="text" name="dimensions" class="form-control" placeholder="Dimensions (cm)" required>
+                  <input type="number" name="max_budget" class="form-control" placeholder="Maximum Budget (Ksh)" required>
                 </div>
 
+                <div class="col-md-12">
+                  <textarea class="form-control" name="description" rows="6" placeholder="Detailed Description" required></textarea>
+                </div>
+
+               <!--Personal Details-->
                 <div class="col-lg-12">
                   <h4>Your Personal Details</h4>
                 </div>
 
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required>
+                <div class="col-md-6">
+                  <input type="text" name="fname" class="form-control" placeholder="First Name" required>
                 </div>
 
-                <div class="col-md-12 ">
+                <div class="col-md-6">
+                  <input type="text" name="mname" class="form-control" placeholder="Middle Name" >
+                </div>
+
+                <div class="col-md-6">
+                  <input type="text" name="lname" class="form-control" placeholder="Last Name" required>
+                </div>
+
+                <div class="col-md-6 ">
                   <input type="email" class="form-control" name="email" placeholder="Email" required>
                 </div>
 
@@ -153,16 +167,23 @@
                   <input type="text" class="form-control" name="phone" placeholder="Phone" required>
                 </div>
 
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                <div class="col-md-6">
+                  <select class="form-group" name="id" id="identification" >
+                        <option>Id Type</option>
+                        <option value="National ID" required>National ID</option>
+                        <option value="Passport" required>Passport ID</option>
+                        </select>
+                        
                 </div>
-
+                <div class="col-md-6">
+                  <input type="text" class="form-control" name="id_number" placeholder="ID Number" required>
+                </div>
                 <div class="col-md-12 text-center">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
 
-                  <button type="submit">Get a quote</button>
+                  <button type="submit">Submit Quotation</button>
                 </div>
 
               </div>
