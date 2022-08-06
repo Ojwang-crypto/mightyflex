@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row gy-4 d-flex justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" style="margin-top: 5%;">
-          <h2 data-aos="fade-up">Connect. Save. Relax.</h2>
+          <h2 data-aos="fade-up">One Stop Arena For All Your Needs!</h2>
           <p data-aos="fade-up" data-aos-delay="100">Rediscover an exciting new way of buying goods/services. </p>
           <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers by 
             Pooling requests. Make a product <u>suggestion/join a pool.</u>
