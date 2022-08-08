@@ -78,8 +78,8 @@
 
         <li class="dropdown"><a href="#"><span>SignUp</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
-              <li><a href="signup.php">Buyer</a></li>
-              <li><a href="signup.php">Supplier</a></li>
+              <li><a href="bu_signup.php">Buyer</a></li>
+              <li><a href="su_signup.php">Supplier</a></li>
           </ul>
         </li>
 
