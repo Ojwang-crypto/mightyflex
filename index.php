@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row gy-4 d-flex justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" style="margin-top: 5%;">
-          <h2 data-aos="fade-up">Connect. Save. Relax.</h2>
+          <h2 data-aos="fade-up">One Stop Arena For All Your Needs!</h2>
           <p data-aos="fade-up" data-aos-delay="100">Rediscover an exciting new way of buying goods/services. </p>
           <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers by 
             Pooling requests. Make a product <u>suggestion/join a pool.</u>
@@ -35,7 +35,7 @@
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Customers</p>
+                <p>Buyers</p>
               </div>
             </div><!-- End Stats Item -->
 
@@ -76,7 +76,8 @@
             <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
             <div>
               <h4 class="title">Lorem Ipsum</h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                 non provident</p>
               <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -105,56 +106,13 @@
       </div>
     </section><!-- End Featured Services Section -->
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about pt-0">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
-          </div>
-          <div class="col-lg-6 content order-last  order-lg-first">
-            <h3>About Us</h3>
-            <p>
-              Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
-            </p>
-            <ul>
-              <li data-aos="fade-up" data-aos-delay="100">
-                <i class="bi bi-diagram-3"></i>
-                <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                </div>
-              </li>
-              <li data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-fullscreen-exit"></i>
-                <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-                </div>
-              </li>
-              <li data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-broadcast"></i>
-                <div>
-                  <h5>Voluptatem et qui exercitationem</h5>
-                  <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-
-    <!-- ======= Services Section ======= -->
+       <!-- ======= products Section ======= -->
     <section id="service" class="services pt-0">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <span>Our Services</span>
-          <h2>Our Services</h2>
+          <span>Our Products</span>
+          <h2>Our Products</h2>
 
         </div>
 
@@ -165,8 +123,12 @@
               <div class="card-img">
                 <img src="assets/img/storage-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Storage</a></h3>
-              <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+              <h3><a href="service-details.html" class="stretched-link">❖ Software as a service.
+            </a></h3>
+              <p>Mightyflex is offering the best simple e-procurement platform for
+                  individuals with interest to carry out their procurement activities
+                    through a simless process.
+                </p>
             </div>
           </div><!-- End Card Item -->
 
@@ -175,8 +137,11 @@
               <div class="card-img">
                 <img src="assets/img/logistics-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Logistics</a></h3>
-              <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt molestiae dolor ipsam ducimus occaecati nisi</p>
+              <h3><a href="service-details.html" class="stretched-link">❖ Outsourced procurement services.
+                </a></h3>
+              <p>For individuals or businesses who are interested in outsourcing their
+                  procurement activities, Mightyflex welcomes you and is ready to offer
+                    procurement services to you.</p>
             </div>
           </div><!-- End Card Item -->
 
@@ -185,8 +150,12 @@
               <div class="card-img">
                 <img src="assets/img/cargo-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Cargo</a></h3>
-              <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
+              <h3><a href="service-details.html" class="stretched-link">❖ Connecting buyers to suppliers.</a></h3>
+              <p>We provide e-procurement platform connecting Buyers to the best
+                  suppliers. This is made simple when you submit your request on the RFQ
+                    button Mightyflex will do the rest for you and provide you with the best
+                      supplier providing the right price and quality.
+                  </p>
             </div>
           </div><!-- End Card Item -->
 
@@ -195,8 +164,10 @@
               <div class="card-img">
                 <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Trucking</a></h3>
-              <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
+              <h3><a href="service-details.html" class="stretched-link">❖ Contract or project management.
+                    </a></h3>
+              <p>We are here to manage contracts/projects for individuals and businesses
+                  from conception point to completion stage.</p>
             </div>
           </div><!-- End Card Item -->
 
@@ -215,15 +186,17 @@
               <div class="card-img">
                 <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.html" class="stretched-link">Warehousing</a></h3>
-              <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
+              <h3><a href="service-details.html" class="stretched-link">❖ Suppliers database provision.
+            </a></h3>
+              <p>For companies or individuals who need an up-to-date supplier database
+                  for their procurement services are highly encouraged to reach out to us.</p>
             </div>
           </div><!-- End Card Item -->
 
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End products Section -->
 
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action" class="call-to-action">

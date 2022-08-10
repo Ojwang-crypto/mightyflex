@@ -43,7 +43,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>Mightyflex</h1>
@@ -78,8 +78,8 @@
 
         <li class="dropdown"><a href="#"><span>SignUp</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
-              <li><a href="signup.php">Customer</a></li>
-              <li><a href="signup.php">Supplier</a></li>
+              <li><a href="bu_signup.php">Buyer</a></li>
+              <li><a href="su_signup.php">Supplier</a></li>
           </ul>
         </li>
 

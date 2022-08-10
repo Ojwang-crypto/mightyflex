@@ -72,7 +72,7 @@
                   <label>Add Photo</label>
                       <input type="file" id="myFile" name="filename">
                 </div>
-
+                <p><strong><small>Note that the above document/photo will enable us to understand the product you need better</small></strong></p>
                <!--Personal Details-->
                 <div class="col-lg-12">
                   <h4>Your Personal Details</h4>
