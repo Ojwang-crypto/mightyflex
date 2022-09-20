@@ -322,7 +322,7 @@ section {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
-  color: #fff;
+  color: gold;
   font-family: var(--font-primary);
 }
 
@@ -1872,7 +1872,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #fff;
+  color: gold;
   font-family: var(--font-primary);
 }
 
