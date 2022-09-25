@@ -10,9 +10,9 @@
     <div class="container">
       <div class="row gy-4 d-flex justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" style="margin-top: 5%;">
-          <h2 data-aos="fade-up">One Stop Arena For All Your Needs!</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Rediscover an exciting new way of buying goods/services. </p>
-          <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers by 
+        <h2 data-aos="fade-up">One Stop Arena For All Your Needs!</h2>
+          <!--   <p data-aos="fade-up" data-aos-delay="100">Rediscover an exciting new way of buying goods/services. </p>
+       <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers by 
             Pooling requests. Make a product <u>suggestion/join a pool.</u>
           </p>
           <p data-aos="fade-up" data-aos-delay="100">Get access to our assorted list of registered suppliers to help you in your purchasing process
@@ -25,26 +25,26 @@
 
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="400">
 
-            <div class="col-lg-3 col-6">
+            <!--<div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Suppliers</p>
               </div>
             </div><!-- End Stats Item -->
 
-            <div class="col-lg-3 col-6">
+          <!--  <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Buyers</p>
               </div>
-            </div><!-- End Stats Item -->
+            </div><!-- End Stats Item --
 
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Pools</p>
               </div>
-            </div><!-- End Stats Item -->
+            </div><!-- End Stats Item --
 
             <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
@@ -52,12 +52,13 @@
                 <p>Fullfilled</p>
               </div>
             </div><!-- End Stats Item -->
+            
 
           </div>
         </div>
 
         <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-          <img src="assets/img/hero-img.svg" class="img-fluid mb-3 mb-lg-0" alt="">
+          <img src="assets/img/hero-.jpeg" class="img-fluid mb-3 mb-lg-0" alt="">
         </div>
 
       </div>
@@ -75,10 +76,10 @@
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
             <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
             <div>
-              <h4 class="title">Lorem Ipsum</h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
-                 non provident</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <h4 class="title">Consolidated Purchasing</h4>
+              <p class="description">Save money by joining a pool of buyers for a specific item so as to be able
+                 to buyat affordable cost by helping each otherin meeting bulk quantities required by sellers.</p>
+              <a href="service-details.html" class="readmore stretched-link"><span>View Consolidated Purchasing</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <!-- End Service Item -->
@@ -86,18 +87,20 @@
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="icon flex-shrink-0"><i class="fa-solid fa-truck"></i></div>
             <div>
-              <h4 class="title">Dolor Sitema</h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <h4 class="title">Submit RFQ</h4>
+              <p class="description">Looking to buy a quality item at the most affordable prize then submit our 
+                request for quotation to be able to receive a report of the price analysis from an approved list of 
+                sellers with their price offers.</p>
+              <a href="service-details.html" class="readmore stretched-link"><span>Submit RFQ</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="icon flex-shrink-0"><i class="fa-solid fa-truck-ramp-box"></i></div>
             <div>
-              <h4 class="title">Sed ut perspiciatis</h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <h4 class="title">Supplier Database</h4>
+              <p class="description">Do you want to reach out to suppliers directly? You can search through our database to get a list of genuine approved sellers.</p>
+              <a href="service-details.html" class="readmore stretched-link"><span>View SupplierDatabase</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
