@@ -593,8 +593,9 @@ section {
 --------------------------------------------------------------*/
 .featured-services .service-item {
   position: relative;
-  height: 100%;
-  margin-bottom: 20px;
+  height: 50%;
+  margin-bottom: 50px;
+ 
 }
 
 .featured-services .service-item .icon {
@@ -1962,3 +1963,4 @@ section {
 .footer .credits a {
   color: #fff;
 }
+

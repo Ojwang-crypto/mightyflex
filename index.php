@@ -10,9 +10,9 @@
     <div class="container">
       <div class="row gy-4 d-flex justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" style="margin-top: 5%;">
-        <h2 data-aos="fade-up">One Stop Arena For All Your Needs!</h2>
-          <!--   <p data-aos="fade-up" data-aos-delay="100">Rediscover an exciting new way of buying goods/services. </p>
-       <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers by 
+        <h3 data-aos="fade-up">One Stop Arena For All Your Needs!</h3>
+             <p data-aos="fade-up" data-aos-delay="100">Rediscover an exciting new way of buying goods/services. </p>
+      <!-- <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers by 
             Pooling requests. Make a product <u>suggestion/join a pool.</u>
           </p>
           <p data-aos="fade-up" data-aos-delay="100">Get access to our assorted list of registered suppliers to help you in your purchasing process
@@ -24,6 +24,7 @@
           </form> -->
 
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="400">
+       
 
             <!--<div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
@@ -58,7 +59,8 @@
         </div>
 
         <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-          <img src="assets/img/hero-.jpeg" class="img-fluid mb-3 mb-lg-0" alt="">
+             <button class="btn">Button</button>
+          <img src="assets/img/hero-img.sv" class="img-fluid mb-3 mb-lg-0" alt="">
         </div>
 
       </div>
@@ -79,7 +81,7 @@
               <h4 class="title">Consolidated Purchasing</h4>
               <p class="description">Save money by joining a pool of buyers for a specific item so as to be able
                  to buyat affordable cost by helping each otherin meeting bulk quantities required by sellers.</p>
-              <a href="service-details.html" class="readmore stretched-link"><span>View Consolidated Purchasing</span><i class="bi bi-arrow-right"></i></a>
+              <a href="service-details.php" class="readmore stretched-link"><span>View Consolidated Purchasing</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <!-- End Service Item -->
@@ -108,6 +110,71 @@
 
       </div>
     </section><!-- End Featured Services Section -->
+    <!-------------------------------------------------------------------------------
+             CONSOLIDATED PURCHASING SECTION
+    --------------------------------------------------------------------------------->
+            
+
+    <section class="intro">
+    <div class="section-header">
+          <span>Our Products</span>
+          <h2>Available Quotations</h2>
+
+        </div>
+  <div class="bg-image h-100" style="background-color: #f5f7fa;">
+    <div class="mask d-flex align-items-center h-100">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body p-0">
+                <div class="table-responsive table-scroll" data-mdb-perfect-scrollbar="true" style="position: relative; ">
+                  <table class="table table-striped mb-0">
+                    <thead style="background-color: #5695EB;">
+                      <tr>
+                        <th scope="col">REF NO.</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">LOCATION</th>
+                        <th scope="col">SUMMERY</th>
+                        <th scope="col">DEADLINE</th>
+                        <th scope="col">STATUS</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>RFQ001</td>
+                        <td>01/01/2022</td>
+                        <td>KENYA-NAIROBI</td>
+                        <td>SUPPLY AND DELIVERY OF LAPTOPS LENOVO T53</td>
+                        <td>10/07/2022</td>
+                        <td>RUNNING</td>
+                      </tr>
+                      <tr>
+                        <td>RFQ001</td>
+                        <td>01/01/2022</td>
+                        <td>KENYA-NAIROBI</td>
+                        <td>SUPPLY AND DELIVERY OF LAPTOPS LENOVO T53</td>
+                        <td>10/07/2022</td>
+                        <td>CLOSED</td>
+                      </tr>
+                     
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-------------------------------------------------------------------------------
+             CONSOLIDATED PURCHASING SECTION
+    --------------------------------------------------------------------------------->
 
        <!-- ======= products Section ======= -->
     <section id="service" class="services pt-0">
@@ -201,7 +268,7 @@
       </div>
     </section><!-- End products Section -->
 
-    <!-- ======= Call To Action Section ======= -->
+    <!-- ======= Call To Action Section ======= --
     <section id="call-to-action" class="call-to-action">
       <div class="container" data-aos="zoom-out">
 
@@ -216,7 +283,7 @@
         </div>
     </section><!-- End Call To Action Section -->
 
-    <!-- ======= Features Section ======= -->
+    <!-- ======= Features Section ======= --
     <section id="features" class="features">
       <div class="container">
 
@@ -237,7 +304,7 @@
               <li><i class="bi bi-check"></i> Ullam est qui quos consequatur eos accusamus.</li>
             </ul>
           </div>
-        </div><!-- Features Item -->
+        </div><!-- Features Item --
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
@@ -255,7 +322,7 @@
               culpa qui officia deserunt mollit anim id est laborum
             </p>
           </div>
-        </div><!-- Features Item -->
+        </div><!-- Features Item --
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5">
@@ -270,7 +337,7 @@
               <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
             </ul>
           </div>
-        </div><!-- Features Item -->
+        </div><!-- Features Item --
 
         <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
@@ -293,7 +360,7 @@
       </div>
     </section><!-- End Features Section -->
 
-    <!-- ======= Pricing Section ======= -->
+    <!-- ======= Pricing Section ======= --
     <section id="pricing" class="pricing pt-0">
       <div class="container" data-aos="fade-up">
 
@@ -318,7 +385,7 @@
               </ul>
               <a href="#" class="buy-btn">Buy Now</a>
             </div>
-          </div><!-- End Pricing Item -->
+          </div><!-- End Pricing Item --
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="pricing-item featured">
@@ -333,7 +400,7 @@
               </ul>
               <a href="#" class="buy-btn">Buy Now</a>
             </div>
-          </div><!-- End Pricing Item -->
+          </div><!-- End Pricing Item --
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="pricing-item">
@@ -355,7 +422,7 @@
       </div>
     </section><!-- End Pricing Section -->
 
-    <!-- ======= Testimonials Section ======= -->
+    <!-- ======= Testimonials Section ======= --
     <section id="testimonials" class="testimonials">
       <div class="container">
 
@@ -376,7 +443,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End testimonial item --
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -392,7 +459,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End testimonial item --
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -408,7 +475,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End testimonial item --
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -424,7 +491,7 @@
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End testimonial item -
 
             <div class="swiper-slide">
               <div class="testimonial-item">
