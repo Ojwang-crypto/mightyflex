@@ -72,7 +72,7 @@
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
       <div class="container">
-
+        <div class card >
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
@@ -80,14 +80,14 @@
             <div>
               <h4 class="title">Consolidated Purchasing</h4>
               <p class="description">Save money by joining a pool of buyers for a specific item so as to be able
-                 to buyat affordable cost by helping each otherin meeting bulk quantities required by sellers.</p>
+                 to buy at affordable cost by helping each other in meeting bulk quantities required by sellers.</p>
               <a href="service-details.php" class="readmore stretched-link"><span>View Consolidated Purchasing</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-truck"></i></div>
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-plus"></i></div>
             <div>
               <h4 class="title">Submit RFQ</h4>
               <p class="description">Looking to buy a quality item at the most affordable prize then submit our 
@@ -98,7 +98,7 @@
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-truck-ramp-box"></i></div>
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-database"></i></div>
             <div>
               <h4 class="title">Supplier Database</h4>
               <p class="description">Do you want to reach out to suppliers directly? You can search through our database to get a list of genuine approved sellers.</p>
@@ -107,6 +107,7 @@
           </div><!-- End Service Item -->
 
         </div>
+</div>
 
       </div>
     </section><!-- End Featured Services Section -->
@@ -115,7 +116,8 @@
     --------------------------------------------------------------------------------->
             
 
-    <section class="intro">
+    <section id="service" class="services pt-0">
+    <div class="container" data-aos="fade-up">
     <div class="section-header">
           <span>Our Products</span>
           <h2>Available Quotations</h2>
@@ -128,7 +130,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-body p-0">
-                <div class="table-responsive table-scroll" data-mdb-perfect-scrollbar="true" style="position: relative; ">
+                <div class="table-responsive table-scroll" data-mdb-perfect-scrollbar="true" style="position: relative; height:300px">
                   <table class="table table-striped mb-0">
                     <thead style="background-color: #5695EB;">
                       <tr>
@@ -148,6 +150,7 @@
                         <td>SUPPLY AND DELIVERY OF LAPTOPS LENOVO T53</td>
                         <td>10/07/2022</td>
                         <td>RUNNING</td>
+                       
                       </tr>
                       <tr>
                         <td>RFQ001</td>
@@ -168,7 +171,8 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
+ 
 </section>
 
 
@@ -535,12 +539,12 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Non consectetur a erat nam at lectus urna duis?
+                    How can I join a pool?
                   </button>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    What is the maximum number of people in a single pool
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -549,7 +553,7 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                   How long does it take for the deliveries to arrive??
                   </button>
                 </h3>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
@@ -563,7 +567,7 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                    Which locations are these services available?
                   </button>
                 </h3>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
@@ -577,7 +581,7 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                    How long do I have to leave a pool after joining?
                   </button>
                 </h3>
                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
@@ -592,7 +596,7 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                    What is the return policy of the purchased products?
                   </button>
                 </h3>
                 <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
