@@ -6,48 +6,74 @@
    <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/herobg3.jpg" alt="hero-bg3" title="One Stop Arena For All Your Needs!" id="wows1_0"/></li>
+		<li><img src="data1/images/herobg3.jpg" alt="logistics-service" title="Rediscover an exciting new way of <br> buying goods/services." id="wows1_1"/></li>
+		<li><img src="data1/images/herobg3.jpg" alt="page-header" title="Save money by letting us connect you with <br> other customers by 
+            Pooling requests.<br>  Make a product suggestion or join a pool.</u>" id="wows1_2"/></li>
+		<li><img src="data1/images/herobg3.jpg" alt="storage-service" title="Get access to our assorted list of registered <br> suppliers to help you in your purchasing process" id="wows1_3"/></li>
+		
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="hero-bg3"><span>1</span></a>
+		<a href="#" title="logistics-service"><span>2</span></a>
+		<a href="#" title="page-header"><span>3</span></a>
+		<a href="#" title="storage-service"><span>4</span></a>
+	
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v9.0</div>
+<div class="ws_shadow">
+
+
+
+</div>
+</div>	
+
+
+  <!--<section id="hero" class="hero d-flex align-items-center">
     <div class="container">
       <div class="row gy-4 d-flex justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" style="margin-top: 5%;">
         <h3 data-aos="fade-up">One Stop Arena For All Your Needs!</h3>
              <p data-aos="fade-up" data-aos-delay="100">Rediscover an exciting new way of buying goods/services. </p>
-      <!-- <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers by 
+             
+      <p data-aos="fade-up" data-aos-delay="100">Save money by letting us connect you with other customers by 
             Pooling requests. Make a product <u>suggestion/join a pool.</u>
           </p>
           <p data-aos="fade-up" data-aos-delay="100">Get access to our assorted list of registered suppliers to help you in your purchasing process
           </p>
 
-          <!-- <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+          <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
             <input type="text" class="form-control" placeholder="ZIP code or CitY">
             <button type="submit" class="btn btn-primary">Search</button>
           </form> -->
 
-          <div class="row gy-4" data-aos="fade-up" data-aos-delay="400">
+         <div class="row gy-4" data-aos="fade-up" data-aos-delay="400">
        
 
-            <!--<div class="col-lg-3 col-6">
+           <!-- <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Suppliers</p>
               </div>
             </div><!-- End Stats Item -->
 
-          <!--  <div class="col-lg-3 col-6">
+       <!--  <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Buyers</p>
               </div>
-            </div><!-- End Stats Item --
+            </div><!-- End Stats Item -->
 
-            <div class="col-lg-3 col-6">
+          <!--  <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Pools</p>
               </div>
-            </div><!-- End Stats Item --
+            </div><!-- End Stats Item -->
 
-            <div class="col-lg-3 col-6">
+          <!--  <div class="col-lg-3 col-6">
               <div class="stats-item text-center w-100 h-100">
                 <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Fullfilled</p>
@@ -120,7 +146,7 @@
     <div class="container" data-aos="fade-up">
     <div class="section-header">
           <span>Our Products</span>
-          <h2>Available Quotations</h2>
+          <h2>Request For Quotation</h2>
 
         </div>
   <div class="bg-image h-100" style="background-color: #f5f7fa;">

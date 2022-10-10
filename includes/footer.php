@@ -64,5 +64,8 @@
       </div>
     </div>
 
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+
   </footer><!-- End Footer -->
   <!-- End Footer -->

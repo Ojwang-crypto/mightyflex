@@ -29,6 +29,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
   <!-- =======================================================
   * Template Name: Logis - v1.1.0
   * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
@@ -45,7 +51,7 @@
 
       <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/logo.PNG" alt="">
         <h1 style="color: gold;">Mightyflex</h1>
       </a>
 
