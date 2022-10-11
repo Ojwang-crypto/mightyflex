@@ -11,10 +11,9 @@
 <div class="ws_images"><ul>
 		<li><img src="data1/images/herobg3.jpg" alt="hero-bg3" title="One Stop Arena For All Your Needs!" id="wows1_0"/></li>
 		<li><img src="data1/images/herobg3.jpg" alt="logistics-service" title="Rediscover an exciting new way of <br> buying goods/services." id="wows1_1"/></li>
-		<li><img src="data1/images/herobg3.jpg" alt="page-header" title="Save money by letting us connect you with <br> other customers by 
-            Pooling requests.<br>  Make a product suggestion or join a pool.</u>" id="wows1_2"/></li>
-		<li><img src="data1/images/herobg3.jpg" alt="storage-service" title="Get access to our assorted list of registered <br> suppliers to help you in your purchasing process" id="wows1_3"/></li>
-		
+		<li><img src="data1/images/herobg3.jpg" alt="page-header" title="Save money by letting us connect you with <br> other customers by Pooling requests.</u>" id="wows1_2"/></li>
+		<li><img src="data1/images/herobg3.jpg" alt="storage-service" title="Get access to our assorted list of registered <br> suppliers to help you in your purchasing process" id="wows1_4"/></li>
+	
 	</ul></div>
 	<div class="ws_bullets"><div>
 		<a href="#" title="hero-bg3"><span>1</span></a>
@@ -200,6 +199,22 @@
 </div>
  
 </section>
+
+ ======= Call To Action Section ======= --
+    <section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="zoom-out">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h3>Call To Action</h3>
+            <p> Want to save money?  Worry no more...! Click the link bellow</p>
+            <a class="cta-btn" href="#">Call To Action</a>
+            </dic>
+          </div>
+
+        </div>
+    </section><!-- End Call To Action Section -->
+
 
 
  <!-------------------------------------------------------------------------------

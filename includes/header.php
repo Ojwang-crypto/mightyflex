@@ -51,7 +51,7 @@
 
       <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.PNG" alt="">
+       <!-- <img src="assets/img/logo.PNG" alt="">-->
         <h1 style="color: gold;">Mightyflex</h1>
       </a>
 
