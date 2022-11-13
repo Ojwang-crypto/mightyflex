@@ -13,7 +13,7 @@
         <ol class="breadcrumb"><!-- breadcrumb begin -->
             <li>
                 
-                <i class="fa fa-dashboard"></i> Dashboard / View Products in catalogue
+                <i class="fa fa-dashboard"></i> Dashboard / View Details in catalogue
                 
             </li>
         </ol><!-- breadcrumb finish -->
@@ -26,7 +26,7 @@
             <div class="panel-heading"><!-- panel-heading begin -->
                 <h3 class="panel-title"><!-- panel-title begin -->
                 
-                    <i class="fa fa-tags fa-fw"></i> View Products
+                    <i class="fa fa-tags fa-fw"></i> View Details
                 
                 </h3><!-- panel-title finish -->
             </div><!-- panel-heading finish -->
@@ -41,10 +41,10 @@
                                 <th> Image</th>
                                 <th> Title </th>
                                 <th> Item Description </th>
-                                <th> Manufacturer Name </th>
+                                <th> Part NO. / Product Code</th>
                                 <th> Price </th>
                                 <th> Unit of Measure </th>
-                                <th> Lead Time </th>
+                                <th> Currency </th>
                                 <th> Edit Product </th>
                                 <th> Delete Product </th>
                             </tr><!-- tr finish -->
@@ -75,7 +75,7 @@
                             <tr><!-- tr begin -->
                                 <td> <?php //echo $i; ?> </td>
                                 <td> <?php //echo $p_cat_title; ?> </td>
-                                <td width="300"> <?php //echo $p_cat_desc; ?> </td>
+                                <td width="50"> <?php //echo $p_cat_desc; ?> </td>
                                 <td></td>
                                 <td></td>
                                 <td></td>

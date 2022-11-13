@@ -63,18 +63,17 @@
                         </div><!-- col-md-6 finish -->
                     
                     </div><!-- form-group finish -->
-
-                     <div class="form-group"><!-- form-group begin -->
+                    <div class="form-group"><!-- form-group begin -->
                     
                         <label for="" class="control-label col-md-3"><!-- control-label col-md-3 begin --> 
                         
-                            Manufacturer Name 
+                            Part NO. / Product Code
                         
                         </label><!-- control-label col-md-3 finish --> 
                         
                         <div class="col-md-6"><!-- col-md-6 begin -->
                         
-                            <input name="manufacturer_name" type="text" class="form-control">
+                            <input type='text' name="pcode" class="form-control"></input>
                         
                         </div><!-- col-md-6 finish -->
                     
@@ -91,6 +90,21 @@
                         <div class="col-md-6"><!-- col-md-6 begin -->
                         
                             <input name="price" type="text" class="form-control">
+                        
+                        </div><!-- col-md-6 finish -->
+                    
+                    </div><!-- form-group finish -->
+                    <div class="form-group"><!-- form-group begin -->
+                    
+                        <label for="" class="control-label col-md-3"><!-- control-label col-md-3 begin --> 
+                        
+                            Currency
+                        
+                        </label><!-- control-label col-md-3 finish --> 
+                        
+                        <div class="col-md-6"><!-- col-md-6 begin -->
+                        
+                            <input name="currency" type="text" class="form-control">
                         
                         </div><!-- col-md-6 finish -->
                     

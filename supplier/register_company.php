@@ -66,6 +66,17 @@
                       </div><!-- col-md-6 Finish -->
                        
                    </div><!-- form-group Finish -->
+                   <div class="form-group"><!-- form-group Begin -->
+                       
+                      <label class="col-md-3 control-label"> Year of EST</label> 
+                      
+                      <div class="col-md-6"><!-- col-md-6 Begin -->
+                          
+                          <input name="company_name" type="number" class="form-control" required>
+                          
+                      </div><!-- col-md-6 Finish -->
+                       
+                   </div><!-- form-group Finish -->
 
                    <div class="form-group"><!-- form-group Begin -->
                        
