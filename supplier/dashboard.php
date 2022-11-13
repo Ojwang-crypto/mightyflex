@@ -39,7 +39,7 @@
                     <div class="col-xs-9 text-right"><!-- col-xs-9 text-right begin -->
                         <div class="huge"> <?php //echo $count_products; ?> </div>
                            
-                        <div> Products </div>
+                        <div> Suppliers </div>
                         
                     </div><!-- col-xs-9 text-right finish -->
                     
@@ -119,7 +119,7 @@
                     <div class="col-xs-9 text-right"><!-- col-xs-9 text-right begin -->
                         <div class="huge"> <?php //echo $count_p_categories; ?> </div>
                            
-                        <div> Product Categories </div>
+                        <div>Items in Catalogue </div>
                         
                     </div><!-- col-xs-9 text-right finish -->
                     
@@ -159,7 +159,7 @@
                     <div class="col-xs-9 text-right"><!-- col-xs-9 text-right begin -->
                         <div class="huge"> <?php //echo $count_pending_orders; ?> </div>
                            
-                        <div> Orders </div>
+                        <div> RFQs </div>
                         
                     </div><!-- col-xs-9 text-right finish -->
                     
@@ -206,13 +206,13 @@
                           
                             <tr><!-- th begin -->
                            
-                                <th> Order no: </th>
-                                <th> Customer Email: </th>
-                                <th> Invoice No: </th>
-                                <th> Product ID: </th>
-                                <th> Product Qty: </th>
-                                <th> Category: </th>
-                                <th> Status: </th>
+                                <th> NO: </th>
+                                <th> Image: </th>
+                                <th> Item Name: </th>
+                                <th> Detailed Description: </th>
+                                <th> Quantity: </th>
+                                <th> Total Weight: </th>
+                                <th> Maximum Budget: </th>
                             
                             </tr><!-- th finish -->
                             
@@ -303,7 +303,7 @@
                     
                     <a href="index.php?view_orders"><!-- a href begin -->
                         
-                        View All Orders <i class="fa fa-arrow-circle-right"></i>
+                        View All RFQs <i class="fa fa-arrow-circle-right"></i>
                         
                     </a><!-- a href finish -->
                     
