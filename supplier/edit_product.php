@@ -1,10 +1,10 @@
 <?php 
-
-    if(!isset($_SESSION['admin_email'])){
+    $con = mysqli_connect ("localhost","root","","mightyflex");
+    // if(!isset($_SESSION['admin_email'])){
         
-        echo "<script>window.open('login.php','_self')</script>";
+    //     echo "<script>window.open('login.php','_self')</script>";
         
-    }else{
+    // }else{
 
 ?>
 
@@ -14,47 +14,27 @@
         
         $edit_id = $_GET['edit_product'];
         
-        $get_p = "select * from products where product_id='$edit_id'";
+        $get_company = "select * from company where id='$edit_id'";
         
-        $run_edit = mysqli_query($con,$get_p);
+        $run_edit = mysqli_query($con,$get_company);
         
         $row_edit = mysqli_fetch_array($run_edit);
         
-        $p_id = $row_edit['product_id'];
-        
-        $p_title = $row_edit['product_title'];
-        
-        $p_cat = $row_edit['p_cat_id'];
-        
-        $cat = $row_edit['cat_id'];
-        
-        $p_image1 = $row_edit['product_img1'];
-        
-        $p_image2 = $row_edit['product_img2'];
-        
-        $p_image3 = $row_edit['product_img3'];
-        
-        $p_price = $row_edit['product_price'];
-        
-        $p_desc = $row_edit['product_desc'];
+       
+                                     
+        $pro_title = $row_edit['company_name'];
+        $pro_yoe = $row_edit['YOE'];
+        $pro_price = $row_edit['ownership_type'];
+        $pro_cert = $row_edit['certificate_of_registration'];
+        $pro_pin = $row_edit['pin'];
+        $pro_region = $row_edit['region'];
+        $pro_street = $row_edit['street'];
+        $pro_email = $row_edit['email'];
+        $pro_mobile = $row_edit['mobile'];
         
     }
         
-        $get_p_cat = "select * from product_categories where p_cat_id='$p_cat'";
-        
-        $run_p_cat = mysqli_query($con,$get_p_cat);
-        
-        $row_p_cat = mysqli_fetch_array($run_p_cat);
-        
-        $p_cat_title = $row_p_cat['p_cat_title'];
-        
-        $get_cat = "select * from categories where cat_id='$cat'";
-        
-        $run_cat = mysqli_query($con,$get_cat);
-        
-       // $row_cat = mysqli_fetch_array($run_cat);
-        
-       // $cat_title = $row_cat['cat_title'];
+       
 
 ?>
 
@@ -75,7 +55,7 @@
             
             <li class="active"><!-- active Begin -->
                 
-                <i class="fa fa-dashboard"></i> Dashboard / Edit Products
+                <i class="fa fa-dashboard"></i> Dashboard / Edit Company
                 
             </li><!-- active Finish -->
             
@@ -95,7 +75,7 @@
                
                <h3 class="panel-title"><!-- panel-title Begin -->
                    
-                   <i class="fa fa-money fa-fw"></i> Insert Product 
+                   <i class="fa fa-money fa-fw"></i> Edit Company 
                    
                </h3><!-- panel-title Finish -->
                
@@ -107,137 +87,111 @@
                    
                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Product Title </label> 
+                      <label class="col-md-3 control-label"> Company Name </label> 
                       
                       <div class="col-md-6"><!-- col-md-6 Begin -->
                           
-                          <input name="product_title" type="text" class="form-control" required value="<?php echo $p_title; ?>">
+                          <input name="company_name" type="text" class="form-control" required value="<?php echo $pro_title; ?>">
                           
                       </div><!-- col-md-6 Finish -->
                        
                    </div><!-- form-group Finish -->
-                   
                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Product Category </label> 
+                      <label class="col-md-3 control-label"> YOE </label> 
                       
                       <div class="col-md-6"><!-- col-md-6 Begin -->
                           
-                          <select name="product_cat" class="form-control"><!-- form-control Begin -->
-                              
-                              <option value="<?php echo $p_cat; ?>"> <?php echo $p_cat_title; ?> </option>
-                              
-                              <?php 
-                              
-                              $get_p_cats = "select * from product_categories";
-                              $run_p_cats = mysqli_query($con,$get_p_cats);
-                              
-                              while ($row_p_cats=mysqli_fetch_array($run_p_cats)){
-                                  
-                                  $p_cat_id = $row_p_cats['p_cat_id'];
-                                  $p_cat_title = $row_p_cats['p_cat_title'];
-                                  
-                                  echo "
-                                  
-                                  <option value='$p_cat_id'> $p_cat_title </option>
-                                  
-                                  ";
-                                  
-                              }
-                              
-                              ?>
-                              
-                          </select><!-- form-control Finish -->
+                          <input name="year_of_establishment" type="text" class="form-control" required value="<?php echo $pro_yoe; ?>">
                           
                       </div><!-- col-md-6 Finish -->
                        
                    </div><!-- form-group Finish -->
-                   
-                   
-                   
                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Product Image 1 </label> 
-                      
-                      <div class="col-md-6"><!-- col-md-6 Begin -->
-                          
-                          <input name="product_img1" type="file" class="form-control" required>
-                          
-                          <br>
-                          
-                          <img width="70" height="70" src="product_images/<?php echo $p_image1; ?>" alt="<?php echo $p_image1; ?>">
-                          
-                      </div><!-- col-md-6 Finish -->
+                       <label class="col-md-3 control-label"> Ownership type </label> 
                        
-                   </div><!-- form-group Finish -->
-                   
-                   <div class="form-group"><!-- form-group Begin -->
+                       <div class="col-md-6"><!-- col-md-6 Begin -->
+                           
+                           <input name="ownership_type" type="text" class="form-control" required value="<?php echo $pro_price; ?>">
+                           
+                       </div><!-- col-md-6 Finish -->
+                        
+                    </div><!-- form-group Finish -->
+                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Product Image 2 </label> 
-                      
-                      <div class="col-md-6"><!-- col-md-6 Begin -->
-                          
-                          <input name="product_img2" type="file" class="form-control">
-                          
-                          <br>
-                          
-                          <img width="70" height="70" src="product_images/<?php echo $p_image2; ?>" alt="<?php echo $p_image2; ?>">
-                          
-                      </div><!-- col-md-6 Finish -->
+                       <label class="col-md-3 control-label">Certificate of Registration </label> 
                        
-                   </div><!-- form-group Finish -->
-                   
-                   <div class="form-group"><!-- form-group Begin -->
+                       <div class="col-md-6"><!-- col-md-6 Begin -->
+                           
+                           <input name="certificate_of_registration" type="text" class="form-control" required value="<?php echo $pro_cert; ?>">
+                           
+                       </div><!-- col-md-6 Finish -->
+                        
+                    </div><!-- form-group Finish -->
+                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Product Image 3 </label> 
-                      
-                      <div class="col-md-6"><!-- col-md-6 Begin -->
-                          
-                          <input name="product_img3" type="file" class="form-control form-height-custom">
-                          
-                          <br>
-                          
-                          <img width="70" height="70" src="product_images/<?php echo $p_image3; ?>" alt="<?php echo $p_image3; ?>">
-                          
-                      </div><!-- col-md-6 Finish -->
+                       <label class="col-md-3 control-label"> PIN </label> 
                        
-                   </div><!-- form-group Finish -->
-                   
-                   <div class="form-group"><!-- form-group Begin -->
+                       <div class="col-md-6"><!-- col-md-6 Begin -->
+                           
+                           <input name="pin" type="text" class="form-control" required value="<?php echo $pro_pin; ?>">
+                           
+                       </div><!-- col-md-6 Finish -->
+                        
+                    </div><!-- form-group Finish -->
+                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Product Price </label> 
-                      
-                      <div class="col-md-6"><!-- col-md-6 Begin -->
-                          
-                          <input name="product_price" type="text" class="form-control" required value="<?php echo $p_price; ?>">
-                          
-                      </div><!-- col-md-6 Finish -->
+                       <label class="col-md-3 control-label"> Region </label> 
                        
-                   </div><!-- form-group Finish -->
-                   
-                   <div class="form-group"><!-- form-group Begin -->
+                       <div class="col-md-6"><!-- col-md-6 Begin -->
+                           
+                           <input name="region" type="text" class="form-control" required value="<?php echo $pro_region; ?>">
+                           
+                       </div><!-- col-md-6 Finish -->
+                        
+                    </div><!-- form-group Finish -->
+                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Product Desc </label> 
-                      
-                      <div class="col-md-6"><!-- col-md-6 Begin -->
-                          
-                          <textarea name="product_desc" cols="19" rows="6" class="form-control">
-                              
-                              <?php echo $p_desc; ?>
-                              
-                          </textarea>
-                          
-                      </div><!-- col-md-6 Finish -->
+                       <label class="col-md-3 control-label"> Street Address</label> 
                        
-                   </div><!-- form-group Finish -->
-                   
+                       <div class="col-md-6"><!-- col-md-6 Begin -->
+                           
+                           <input name="street_address" type="text" class="form-control" required value="<?php echo $pro_street; ?>">
+                           
+                       </div><!-- col-md-6 Finish -->
+                        
+                    </div><!-- form-group Finish -->
+                    <div class="form-group"><!-- form-group Begin -->
+                       
+                       <label class="col-md-3 control-label"> Email </label> 
+                       
+                       <div class="col-md-6"><!-- col-md-6 Begin -->
+                           
+                           <input name="email" type="text" class="form-control" required value="<?php echo $pro_email; ?>">
+                           
+                       </div><!-- col-md-6 Finish -->
+                        
+                    </div><!-- form-group Finish -->
+                    <div class="form-group"><!-- form-group Begin -->
+                       
+                       <label class="col-md-3 control-label"> Mobile </label> 
+                       
+                       <div class="col-md-6"><!-- col-md-6 Begin -->
+                           
+                           <input name="mobile" type="text" class="form-control" required value="<?php echo $pro_mobile; ?>">
+                           
+                       </div><!-- col-md-6 Finish -->
+                        
+                    </div><!-- form-group Finish -->
+    
                    <div class="form-group"><!-- form-group Begin -->
                        
                       <label class="col-md-3 control-label"></label> 
                       
                       <div class="col-md-6"><!-- col-md-6 Begin -->
                           
-                          <input name="update" value="Update Product" type="submit" class="btn btn-primary form-control">
+                          <input name="update" value="Update Details" type="submit" class="btn btn-primary form-control">
                           
                       </div><!-- col-md-6 Finish -->
                        
@@ -253,8 +207,7 @@
     
 </div><!-- row Finish -->
    
-    <script src="js/tinymce/tinymce.min.js"></script>
-    <script>tinymce.init({ selector:'textarea'});</script>
+   
 </body>
 </html>
 
@@ -262,34 +215,26 @@
 <?php 
 
 if(isset($_POST['update'])){
+
+    $pro_title = $_POST['company_name'];
+    $pro_yoe = $_POST['YOE'];
+    $pro_price = $_POST['ownership_type'];
+    $pro_cert = $_POST['certificate_of_registration'];
+    $pro_pin = $_POST['pin'];
+    $pro_region = $_POST['region'];
+    $pro_street = $_POST['street'];
+    $pro_email = $_POST['email'];
+    $pro_mobile = $_POST['mobile'];
     
-    $product_title = $_POST['product_title'];
-    $product_cat = $_POST['product_cat'];
-    $cat = $_POST['cat'];
-    $product_price = $_POST['product_price'];
-    $product_desc = $_POST['product_desc'];
+    $update_company = "update company set company_name='$pro_title',YOE='$pro_yoe',ownership_type='$pro_price',certificate_of_registration='$pro_cert',pin='$pro_pin',region='$pro_region',street='$pro_street',email='$pro_email',mobile='$pro_mobile' where id='$p_id'";
     
-    $product_img1 = $_FILES['product_img1']['name'];
-    $product_img2 = $_FILES['product_img2']['name'];
-    $product_img3 = $_FILES['product_img3']['name'];
+    $run_company = mysqli_query($con,$update_company);
     
-    $temp_name1 = $_FILES['product_img1']['tmp_name'];
-    $temp_name2 = $_FILES['product_img2']['tmp_name'];
-    $temp_name3 = $_FILES['product_img3']['tmp_name'];
-    
-    move_uploaded_file($temp_name1,"product_images/$product_img1");
-    move_uploaded_file($temp_name2,"product_images/$product_img2");
-    move_uploaded_file($temp_name3,"product_images/$product_img3");
-    
-    $update_product = "update products set p_cat_id='$product_cat',cat_id='$cat',date=NOW(),product_title='$product_title',product_img1='$product_img1',product_img2='$product_img2',product_img3='$product_img3',product_desc='$product_desc',product_price='$product_price' where product_id='$p_id'";
-    
-    $run_product = mysqli_query($con,$update_product);
-    
-    if($run_product){
+    if($run_company){
         
-       echo "<script>alert('Your product has been updated Successfully')</script>"; 
+       echo "<script>alert('Your company has been updated Successfully')</script>"; 
         
-       echo "<script>window.open('index.php?view_products','_self')</script>"; 
+       echo "<script>window.open('index.php?view_company_details','_self')</script>"; 
         
     }
     
@@ -298,4 +243,4 @@ if(isset($_POST['update'])){
 ?>
 
 
-<?php } ?>
+<?php //} ?>

@@ -1,10 +1,11 @@
 <?php 
-    
+     $con = mysqli_connect ("localhost","root","","mightyflex");
     //if(!isset($_SESSION['admin_email'])){
         
       //  echo "<script>window.open('login.php','_self')</script>";
         
    // }else{
+   
 
 ?>
 
@@ -47,7 +48,6 @@
                                 <th> Street Address: </th>
                                 <th> Email: </th>
                                 <th> Mobile: </th>
-                                <th> Delete: </th>
                                 <th> Edit: </th>
                             </tr><!-- tr finish -->
                         </thead><!-- thead finish -->
@@ -56,52 +56,57 @@
                             
                             <?php 
           
-                               // $i=0;
+                                $i=0;
                             
-                                //$get_pro = "select * from products";
+                                $get_pro = "select * from company ";
                                 
-                               // $run_pro = mysqli_query($con,$get_pro);
+                                $run_pro = mysqli_query($con,$get_pro);
           
-                               // while($row_pro=mysqli_fetch_array($run_pro)){
+                                while($row_pro=mysqli_fetch_array($run_pro)){
                                     
-                               //     $pro_id = $row_pro['product_id'];
+                                    $pro_id = $row_pro['id'];
                                     
-                                  //  $pro_title = $row_pro['product_title'];
+                                    $pro_title = $row_pro['company_name'];
                                     
-                                  //  $pro_img1 = $row_pro['product_img1'];
+                                    // $pro_img1 = $row_pro['product_img1'];
                                     
-                                 //   $pro_price = $row_pro['product_price'];
+                                    $pro_price = $row_pro['ownership_type'];
+                                    $pro_cert = $row_pro['certificate_of_registration'];
+                                    $pro_pin = $row_pro['pin'];
+                                    $pro_region = $row_pro['region'];
+                                    $pro_street = $row_pro['street'];
+                                    $pro_email = $row_pro['email'];
+                                    $pro_mobile = $row_pro['mobile'];
                                     
-                                  //  $pro_date = $row_pro['date'];
+                                  
                                     
-                                  //  $i++;
+                                    $i++;
                             
                             ?>
                             
                             <tr><!-- tr begin -->
-                                <td> <?php //echo $i; ?> </td>
-                                <td> <?php // echo $pro_title; ?> </td>
-                                <!-- <td> <img src="product_images" width="60" height="60"></td> -->
-                                <td>  <?php //echo $pro_price; ?> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                <td> </td>
-                                
-                               <td> <?php //echo $pro_date ?> </td>
-                                <td> 
+                                <td> <?php echo $i; ?> </td>
+                                <td> <?php echo $pro_title; ?> </td>  
+                                <td> <?php echo $pro_price; ?> </td>                           
+                                <td>  <?php echo $pro_cert; ?> </td>
+                                <td> <?php echo $pro_pin; ?></td>
+                                <td> <?php echo $pro_region; ?></td>
+                                <td> <?php echo $pro_street; ?></td>
+                                <td> <?php echo $pro_email; ?></td>
+                                <td> <?php echo $pro_mobile; ?></td>
+                                                            
+                                <!-- <td> 
                                      
-                                     <a href="index.php?delete_product=<?php // echo $pro_id; ?>">
+                                     <a href="index.php?delete_product=<?php  echo $pro_id; ?>">
                                      
                                         <i class="fa fa-trash-o"></i> Delete
                                     
                                      </a> 
                                      
-                                </td>
+                                </td> -->
                                 <td> 
                                      
-                                     <a href="index.php?edit_product=<?php //echo $pro_id; ?>">
+                                     <a href="index.php?edit_product=<?php echo $pro_id; ?>">
                                      
                                         <i class="fa fa-pencil"></i> Edit
                                     
@@ -110,7 +115,7 @@
                                 </td>
                             </tr><!-- tr finish -->
                             
-                            <?php //} ?>
+                            <?php } ?>
                             
                         </tbody><!-- tbody finish -->
                         
