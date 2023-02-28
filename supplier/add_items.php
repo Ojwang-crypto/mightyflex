@@ -1,5 +1,5 @@
 <?php 
-    
+    $con = mysqli_connect ("localhost","root","","mightyflex");
    // if(!isset($_SESSION['admin_email'])){
         
       //  echo "<script>window.open('login.php','_self')</script>";
@@ -58,7 +58,7 @@
                         
                         <div class="col-md-6"><!-- col-md-6 begin -->
                         
-                            <textarea type='text' name="p_cat_desc" id="" cols="" rows="" class="form-control"></textarea>
+                            <textarea type='text' name="item_desc" id="" cols="" rows="" class="form-control"></textarea>
                         
                         </div><!-- col-md-6 finish -->
                     
@@ -73,7 +73,7 @@
                         
                         <div class="col-md-6"><!-- col-md-6 begin -->
                         
-                            <input type='text' name="pcode" class="form-control"></input>
+                            <input type='text' name="p_code" class="form-control"></input>
                         
                         </div><!-- col-md-6 finish -->
                     
@@ -183,19 +183,26 @@
 
           if(isset($_POST['submit'])){
               
-              $p_cat_title = $_POST['p_cat_title'];
+              $title = $_POST['title'];
               
-              $p_cat_desc = $_POST['p_cat_desc'];
+              $item_desc = $_POST['item_desc'];
+              $product_code = $_POST['p_code'];
+              $price = $_POST['price'];
+              $currency = $_POST['currency'];
+              $unit = $_POST['unit'];
+              $lead_time = $_POST['lead_time'];
+              $image = $_FILES['image']['name'];
+              $temp_name = $_FILES['image']['tmp_name'];
               
-              $insert_p_cat = "insert into product_categories (p_cat_title,p_cat_desc) values ('$p_cat_title','$p_cat_desc')";
+              $insert_pro = "insert into catalogue_items (title,item_description,product_code,price,currency,unit_of_measure,lead_time,image) values ('$title','$item_desc','$product_code','$price','$currency','$unit','$lead_time','$image')";
               
-              $run_p_cat = mysqli_query($con,$insert_p_cat);
+              $run_pro = mysqli_query($con,$insert_pro);
               
-              if($run_p_cat){
+              if($run_pro){
                   
-                  echo "<script>alert('Your New Product Category Has Been Inserted')</script>";
+                  echo "<script>alert('Your product has been added to Catalogue successfully')</script>";
                   
-                  echo "<script>window.open('index.php?view_p_cats','_self')</script>";
+                  echo "<script>window.open('index.php?view_catalogue_items','_self')</script>";
                   
               }
               
