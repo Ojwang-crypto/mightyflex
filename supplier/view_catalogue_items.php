@@ -1,5 +1,5 @@
 <?php 
-    
+    $con = mysqli_connect ("localhost","root","","mightyflex");
     //if(!isset($_SESSION['admin_email'])){
         
       //  echo "<script>window.open('login.php','_self')</script>";
@@ -54,46 +54,52 @@
                             
                             <?php 
                             
-                               // $i=0;
+                                $i=0;
           
-                              //  $get_p_cats = "select * from product_categories";
+                                $get_items = "select * from catalogue_items";
           
-                             //   $run_p_cats = mysqli_query($con,$get_p_cats);
+                                $run_items = mysqli_query($con,$get_items);
           
-                              //  while($row_p_cats=mysqli_fetch_array($run_p_cats)){
+                                while($row_items=mysqli_fetch_array($run_items)){
                                     
-                                //    $p_cat_id = $row_p_cats['p_cat_id'];
+                                    $id = $row_items['id'];
                                     
-                                  //  $p_cat_title = $row_p_cats['p_cat_title'];
-                                    
-                                  //  $p_cat_desc = $row_p_cats['p_cat_desc'];
-                                    
-                                 //   $i++;
+                                    $title = $row_items['title'];
+                                    $item_description = $row_items['item_description'];
+                                    $product_code = $row_items['product_code'];
+                                    $price = $row_items['price'];
+                                    $currency = $row_items['currency'];
+                                    $unit_of_measure = $row_items['unit_of_measure'];
+                                    $lead_time = $row_items['lead_time'];
+                                    $image = $row_items['image'];
+                                                                       
+                                    $i++;
                             
                             ?>
                             
                             <tr><!-- tr begin -->
-                                <td> <?php //echo $i; ?> </td>
-                                <td> <?php //echo $p_cat_title; ?> </td>
-                                <td width="50"> <?php //echo $p_cat_desc; ?> </td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td> <?php echo $i; ?> </td>
+                                <td> <?php echo $image; ?> </td>
+                                <td> <?php echo $title; ?> </td>
+                                <td width="50"> <?php echo $item_description; ?> </td>
+                                <td><?php echo $product_code; ?></td>
+                                <td><?php echo $price; ?></td>
+                                <td><?php echo $unit_of_measure; ?></td>
+                                <td><?php echo $currency; ?></td>
+                                
                                 <td> 
-                                    <a href="index.php?edit_p_cat= <?php //echo $p_cat_id; ?> ">
+                                    <a href="index.php?edit_p_cat= <?php echo $id; ?> ">
                                         <i class="fa fa-pencil"></i> Edit
                                     </a>
                                 </td>
                                 <td> 
-                                    <a href="index.php?delete_p_cat= <?php //echo $p_cat_id; ?> ">
+                                    <a href="index.php?delete_p_cat= <?php echo $id; ?> ">
                                         <i class="fa fa-trash"></i> Delete
                                     </a>
                                 </td>
                             </tr><!-- tr finish -->
                             
-                            <?php //} ?>
+                            <?php } ?>
                         
                         </tbody><!-- tbody finish -->
                         
